@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Samuel Portfolio</title>
+
+<!-- Bootstrap CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Samuel</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+<!-- HERO SECTION -->
+<section class="hero text-center text-white">
+<div class="container">
+<h1>Hi, I'm Samuel</h1>
+<p>Aspiring Web Developer</p>
+<a href="#projects" class="btn btn-primary">View My Work</a>
+</div>
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="container mt-5">
+<h2 class="text-center">About Me</h2>
+<p class="text-center">
+My name is Samuel Amutuhaire. I am a student studying Information Technology and learning web development.
+</p>
+
+<div class="text-center">
+<span class="badge bg-primary">HTML</span>
+<span class="badge bg-success">CSS</span>
+<span class="badge bg-warning">JavaScript</span>
+<span class="badge bg-dark">Bootstrap</span>
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="container mt-5">
+<h2 class="text-center mb-4">My Projects</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="card">
+<img src="https://picsum.photos/400/200" class="card-img-top" alt="project">
+<div class="card-body">
+<h5 class="card-title">School Website</h5>
+<p class="card-text">A website for Pearl Junior School.</p>
+<button class="btn btn-primary">View</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card">
+<img src="https://picsum.photos/401/200" class="card-img-top" alt="project">
+<div class="card-body">
+<h5 class="card-title">Restaurant Website</h5>
+<p class="card-text">A design for a Beirut restaurant.</p>
+<button class="btn btn-primary">View</button>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card">
+<img src="https://picsum.photos/402/200" class="card-img-top" alt="project">
+<div class="card-body">
+<h5 class="card-title">Portfolio Website</h5>
+<p class="card-text">My personal developer portfolio.</p>
+<button class="btn btn-primary">View</button>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="container mt-5 mb-5">
+<h2 class="text-center">Contact Me</h2>
+
+<form>
+
+<div class="mb-3">
+<label class="form-label">Name</label>
+<input type="text" class="form-control">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Email</label>
+<input type="email" class="form-control">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Message</label>
+<textarea class="form-control"></textarea>
+</div>
+
+<button class="btn btn-success">Submit</button>
+
+</form>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+<p>© 2026 Samuel Amutuhaire</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+.hero{
+background: linear-gradient(to right, #007bff, #6610f2);
+padding:100px 0;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+.card{
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+footer{
+margin-top:40px;
+}
